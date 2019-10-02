@@ -1,1 +1,1 @@
-web: gunicorn blog_project.wsgi
+web: gunicorn gerenciador_tarefas.wsgi --log-file -
